@@ -110,7 +110,7 @@ OK (1 test, 1 assertion)
 
 MemCalcクラスのaddメソッドを、$memoryに値を加算するものとして、テストプログラムを作成します。
 
-```
+```php
 <?php
 use \PHPUnit\Framework\TestCase;
 
@@ -177,7 +177,7 @@ OK (2 tests, 2 assertions)
 
 ## Part3 divideメソッドの実装
 
-MemCalcクラスのdivideメソッドを、$memoryに値を除算するものとして、テストプログラムを作成します。
+MemCalcクラスのdivideメソッドを、$memoryの値を除算するものとして、テストプログラムを作成します。
 
 ```php
 <?php
@@ -255,7 +255,7 @@ OK (3 tests, 3 assertions)
 ```
 
 
-## Part4 0による除算
+## Part4 ゼロによる除算
 
 MemCalcクラスのdivideメソッドの引数が0のとき、InvalidArgumentExceptionをスローすることを確認するテストプログラムを作成します。
 

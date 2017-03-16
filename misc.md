@@ -66,6 +66,11 @@ require_once("src/Email.php");
 
 > composerのオートロードも調べてみると良いでしょう。
 
-## もっと勉強するには
+## もっとPHPUnitを勉強するには
 
 https://phpunit.de/manual/current/ja/installation.html
+
+
+## そして、もっとプログラミングを楽しむには
+
+https://www.facebook.com/itcaret/

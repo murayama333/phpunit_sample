@@ -9,8 +9,7 @@ https://phpunit.de/
 
 プログラムの単体テストフレームワークです。
 
-> JavaだとJUnitというのがあります。xUnitと聞けば大体同じ。
-
+> ちなみにJavaにはJUnitというのがあります。xUnitと聞けば大体同じような仕組みになっています。
 
 ## 準備
 
@@ -41,7 +40,7 @@ cd Desktop/phpunit
 
 こんなコード（Email.php）が手元にあるとします。
 
-```
+```php
 <?php
 final class Email
 {

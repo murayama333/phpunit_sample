@@ -1,5 +1,4 @@
 <?php
-
 use PHPUnit\Framework\TestCase;
 
 class CalcTest extends TestCase
@@ -11,7 +10,7 @@ class CalcTest extends TestCase
     $this->assertEquals(7, $calc->add(3, 4));
   }
 
-  public function testAdd5_5_eq_10($value='')
+  public function testAdd5_5_eq_10()
   {
     $calc = new Calc();
     $this->assertEquals(10, $calc->add(5, 5));
@@ -24,7 +23,6 @@ class CalcTest extends TestCase
     $calc = new Calc();
     $this->assertEquals($expected, $calc->add($x, $y));
   }
-
 
   public function addProvider()
   {

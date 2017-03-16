@@ -4,6 +4,13 @@ use \PHPUnit\Framework\TestCase;
 class MemCalcTest extends TestCase
 {
 
+  public function testShow0()
+  {
+    $calc = new MemCalc();
+    $calc->show();
+    $this->expectOutputString("0");
+  }
+
   public function testAdd3Show3()
   {
     $calc = new MemCalc();
@@ -11,11 +18,11 @@ class MemCalcTest extends TestCase
     $this->expectOutputString("3");
   }
 
-  public function test10Divide5Multiply3Show6()
+  public function test10Divide5Add3Show5()
   {
     $calc = new MemCalc(10);
-    $calc->divide(5)->multiply(3)->show();
-    $this->expectOutputString("6");
+    $calc->divide(5)->add(3)->show();
+    $this->expectOutputString("5");
   }
 
   /**

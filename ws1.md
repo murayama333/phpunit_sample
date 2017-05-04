@@ -7,19 +7,19 @@ It is an instance of the xUnit architecture for unit testing frameworks.
 https://phpunit.de/
 ```
 
-プログラムの単体テストフレームワークです。
+PHPプログラムの単体テストフレームワークです。
 
-> ちなみにJavaにはJUnitというのがあります。xUnitと聞けば大体同じような仕組みになっています。
+> 同様にJavaにはJUnitというテストフレームワークがあります。xUnitと聞けば大体同じような仕組みになっています。
 
 ## 準備
 
 PHP5系の方とPHP7系の方でダウンロードするファイルが違うので注意してください。
 
-PHP7系の人はPHPUnit 6.0を使います。
+PHP7系の場合はPHPUnit 6.0を使います。
 
 https://phar.phpunit.de/phpunit.phar
 
-PHP5系の人はPHPUnit 5.7を使います。
+PHP5系の場合はPHPUnit 5.7を使います。
 
 https://phar.phpunit.de/phpunit-5.7.phar
 

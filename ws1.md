@@ -38,7 +38,7 @@ cd Desktop/phpunit
 
 プログラムの単体テストプログラムを書いて、実行できます。
 
-こんなコード（Email.php）が手元にあるとします。
+次のようなコード（Email.php）が手元にあるとします。
 
 ```php
 <?php
@@ -79,8 +79,7 @@ final class Email
 
 > デスクトップ/phpunit/srcフォルダにEmail.phpを保存してください。
 
-
-上記のプログラムが正しく動くかテストしたい！ならPHPUnitを使ってテストプログラム（EmailTest.php）を作りましょう。
+続いて上記のプログラムが正しく動くかテストするために、PHPUnitを使ってテストプログラム（EmailTest.php）を作りましょう。
 
 
 ```php
